@@ -52,7 +52,7 @@ class Aluno extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'idaluno' => 'Idaluno',
+            'idaluno' => 'ID',
             'nome' => 'Nome',
             'rg' => 'Rg',
             'cpf' => 'Cpf',
